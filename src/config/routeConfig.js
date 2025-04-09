@@ -15,7 +15,7 @@
         },
         {
             "sourceRoute": "/interface/v1/event/:id",
-            "type": "POST",
+            "type": "PATCH",
             "priority": "MUST_HAVE",
             "inSequence": false,
             "orchestrated": false,
@@ -28,7 +28,7 @@
         },
         {
             "sourceRoute": "/interface/v1/event/list",
-            "type": "PATCH",
+            "type": "POST",
             "priority": "MUST_HAVE",
             "inSequence": false,
             "orchestrated": false,
@@ -41,4 +41,3 @@
         }
     ]
 }
-
